@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="src/Golf-Card.js"></script>
+        <link href="font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet"/>
+        <link href="main.css" rel="stylesheet" />
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    </head>
+    <body onload="loadCourses()">
+    <div class="modalbackground">
+        <div class="setupmodal">
+            <h4>Set up your Golf Card</h4>
+            <label>Tee:</label><select id="teeTypes"></select>
+            <div class="courseSelector"><label>Golf Course: </label><select id="courseSelect"></select></div>
+            <input id="playerCount" type="text" placeholder="Number of Players"/>
+            <a href="javascript: beginCard()" class="gobtn">go</a>
+        </div>
+    </div>
+    <h3 id="courseTitle"></h3>
+    <div id="container">
+        <div id="leftCard"></div>
+        <div id="holeNumber"></div>
+        <div id="rightCard"></div>
+    </div>
+    </body>
+</html>

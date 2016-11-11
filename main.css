@@ -1,0 +1,74 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    background-color: #23B8F0;
+}
+
+.modalbackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+.setupmodal{
+    font-family: "Comic Sans MS";
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+#holeNumber{
+    width: auto;
+    display: flex;
+    margin: 0 10%;
+}
+
+#leftCard{
+    border-radius: 4px;
+    background-color: white;
+    padding: 15px;
+}
+
+#rightCard{
+    display: flex;
+    width: auto;
+    padding: 15px;
+}
+.holcol{
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+}
+
+#container{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 4px;
+    background-color: white;
+    padding: 15px;
+    justify-content: space-between;
+}
+#glyphicon{
+    color: red;
+    padding-top: 2px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.gobtn{
+    width: 80%;
+    margin: 25px auto 0 auto;
+    display: block;
+}
